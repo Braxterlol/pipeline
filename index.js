@@ -40,4 +40,5 @@ socketConfig.getIo().on('connection', (socket) => {
 
 server.listen(PORT, () => {
   console.log(`API escuchando en el puerto ${PORT}`);
+  console.log("holaaaaa")
 });
