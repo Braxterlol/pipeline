@@ -28,7 +28,8 @@ Las migraciones se gestionan mediante **Knex.js** con un contenedor MySQL separa
 
 ```bash
 npx knex migrate:latest --knexfile ./knexfile.js
-
+```
+## conclusiones personales
 Usar CI/CD con contenedores permite un despliegue reproducible y rápido, eliminando inconsistencias entre ambientes locales y producción.
 
 La integración con AWS EC2 facilita la automatización del despliegue sin depender de intervención manual.
